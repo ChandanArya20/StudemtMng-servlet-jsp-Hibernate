@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Fill details</title> 
+        <link rel="stylesheet" href="CSS/addForm.css"></link>
+                
+    </head>
+    <body>
+        <div class="user_input">
+            <form method="post" action="controller/addform">
+                <div class="input_heading">Fill Your details</div>
+                <div>
+                    Name<br/>
+                    <input type="text" name="sname" min="1" placeholder="Enter name"/>
+                </div>
+                <div>
+                    Age<br/>
+                    <td><input type="number" name="sage" min="1" placeholder="Enter age"/>
+                </div>
+                <div>
+                    Address<br/>
+                    <td><input type="text" name="saddress" placeholder="Enter address"/>
+                </div>
+            
+                <div class="sub-btn-container">                 
+                    <input type="submit" value="Save">
+                </div>
+               
+            </form>
+        </div>
+    </body>
+</html>
