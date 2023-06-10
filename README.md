@@ -1,4 +1,4 @@
-# Project Title
+# Student Management System
 
 ## Dynamic Web Project with Servlets, JSP, Jdbc, Hibernate, Hikari CP, MySQL, Html and css
 
